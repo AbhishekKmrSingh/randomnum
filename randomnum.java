@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 class AtRandomNumber
 {
@@ -13,7 +14,8 @@ class AtRandomNumber
         System.out.print("Please enter maximum range: ");
         maxRange=SC.nextInt();
         
-     
+        for(int loop=1; loop<=10; loop++)
+        {
             System.out.println(rand.nextInt(maxRange));
         }
     }
